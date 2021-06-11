@@ -1,0 +1,22 @@
+$primaryColor: #f6fedb;
+$secondaryColor: #d8d174;
+$textColor: #474919;
+$secondaryText: #e6d3a3;
+$btnColor: #b6c454;
+
+.list {
+  padding: 2px 16px;
+  background: $secondaryColor;
+  border-radius: 5px;
+  display: block;
+  margin: 20px 10px;
+  border: 1px solid $textColor;
+  border-left: 8px solid;
+}
+
+.list:hover {
+  border: 1px solid $secondaryColor;
+  border-left: 8px solid $secondaryColor;
+  background: $textColor;
+  color: $secondaryColor;
+}

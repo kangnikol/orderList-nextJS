@@ -1,0 +1,17 @@
+.list {
+  padding: 2px 16px;
+  background: #d8d174;
+  border-radius: 5px;
+  display: block;
+  margin: 20px 10px;
+  border: 1px solid #474919;
+  border-left: 8px solid;
+}
+
+.list:hover {
+  border: 1px solid #d8d174;
+  border-left: 8px solid #d8d174;
+  background: #474919;
+  color: #d8d174;
+}
+/*# sourceMappingURL=orders.module.css.map */
